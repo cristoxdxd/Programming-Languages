@@ -1,5 +1,21 @@
 # Basic Rust program structure
 
+## Table of Contents
+
+### [1. Functions](#functions)
+
+### [2. Macros](#macros)  
+
+### [3. Variables](#variables)  
+
+### [4. Data types](#data-types)  
+
+### [4.1. Compound Data Types](#compound-data-types)  
+
+### [5. Data Collections](#data-collections)  
+
+### [6. Compound Data](#compound-data)
+
 ## Functions
 
 Every Rust program must have one function named `main`. The code in the `main` function is always the first code run in a Rust program.  
@@ -130,7 +146,7 @@ Access the elements in an array by indexing `<array>[index]`
 
 ### Vectors
 
-As with arrays, vectors store multiple values that have the same data type. Unlike arrays, the size or length of a vector can grow or shrink at any time. 
+As with arrays, vectors store multiple values that have the same data type. Unlike arrays, the size or length of a vector can grow or shrink at any time.
 A way to declare and initialize a vector is with the `vec!` macro.
 
 ```rust
