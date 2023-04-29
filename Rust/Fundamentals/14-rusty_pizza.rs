@@ -1,3 +1,4 @@
+/// src/lib.rs
 pub struct Pizza {
     pub topping: String,
     pub inches: u8,

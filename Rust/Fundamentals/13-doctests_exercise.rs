@@ -1,3 +1,4 @@
+/// src/lib.rs
 /// This function divides two numbers.
 ///
 /// # Example #1: 10 / 2 == 5
