@@ -1,1 +1,0 @@
-C:\Users\cris_\OneDrive\Documentos\VSCode\Programming-Languages\Rust\Fundamentals\rusty-journal\target\debug\rusty-journal.exe: C:\Users\cris_\OneDrive\Documentos\VSCode\Programming-Languages\Rust\Fundamentals\rusty-journal\src\cli.rs C:\Users\cris_\OneDrive\Documentos\VSCode\Programming-Languages\Rust\Fundamentals\rusty-journal\src\main.rs
