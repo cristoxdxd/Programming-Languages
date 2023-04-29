@@ -96,3 +96,9 @@ pub fn add(a: i32, b: i32) -> i32 {
     a + b
 }
 ```
+
+## Integration Tests
+
+Unit and documentation test provide concise and specific tests. However, they don't test the interaction between different modules. This task is done by integration tests. Integration tests are located in the `tests` directory. Each file in the `tests` directory is compiled as a separate crate. This means that integration tests cannot access the functions, structs, enums, and modules of the parent crate unless they are explicitly imported.
+
+Rust places the results of the tests in separate sections. Unit tests results come first, then integration tests results, and finally documentation tests results.
