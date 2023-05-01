@@ -24,6 +24,10 @@ This repository documents my personal progress in learning different programming
 - [Microsoft Learn: Rust Learning Path](https://docs.microsoft.com/learn/paths/rust-first-steps/?WT.mc_id=academic-29077-cxa)
 - [Exercism: Rust Exercises](https://exercism.io/tracks/rust)
 
+<!-- ### Python
+
+- [SkillsForAll: Python Essentials 1](skillsforall.com/course/python-essentials-1)-->
+
 ## Contributing
 
 If you're interested in contributing to this project, feel free to submit a pull request with any additions or improvements to my code or notes. Please ensure that your contributions align with the goals of this project.
