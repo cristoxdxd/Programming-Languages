@@ -12,8 +12,8 @@ This repository documents my personal progress in learning different programming
 ## **Languages**
 
 - [Rust](./Rust/)
-<!-- - [Python](./Python/)
-- [MATLAB](./MATLAB/)
+- [Python](./Python/)
+<!-- - [MATLAB](./MATLAB/)
 - [Golang](./Golang/)-->
 
 ## Resources
@@ -23,10 +23,14 @@ This repository documents my personal progress in learning different programming
 - [Rust suggested learning resources](https://www.rust-lang.org/learn)
 - [Microsoft Learn: Rust Learning Path](https://docs.microsoft.com/learn/paths/rust-first-steps/?WT.mc_id=academic-29077-cxa)
 - [Exercism: Rust Exercises](https://exercism.io/tracks/rust)
+- [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 
-<!-- ### Python
+### Python
 
-- [SkillsForAll: Python Essentials 1](skillsforall.com/course/python-essentials-1)-->
+- [Networking Academy: Python Essentials 1](skillsforall.com/course/python-essentials-1)
+- [Google for Education: Python Programming](https://developers.google.com/edu/python)
+- [Microsoft Learn: Python Learning Path](https://learn.microsoft.com/en-us/training/paths/beginner-python/)
+- [w3schools: Python Tutorial](https://www.w3schools.com/python/)
 
 ## Contributing
 
