@@ -1,5 +1,3 @@
-// Binary search program
-
 use std::io;
 
 fn main() {
