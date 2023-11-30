@@ -124,6 +124,15 @@ fun main() {
 }
 ```
 
+### For Each
+
+```kotlin
+fun main() {
+    val items = listOf("apple", "banana", "kiwifruit")
+    items.forEach { println(it) }
+}
+```
+
 ### While loop
 
 ```kotlin
