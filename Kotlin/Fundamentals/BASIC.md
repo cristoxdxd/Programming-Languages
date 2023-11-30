@@ -410,103 +410,6 @@ Kotlin supports the following collection types:
 * `Set` - a collection of unique elements
 * `Map` - a collection of key-value pairs
 
-### List
-
-```kotlin
-fun main() {
-    val list = listOf(1, 2, 3)
-    println(list) // [1, 2, 3]
-    println(list[0]) // 1
-    println(list.get(0)) // 1
-    println(list.size) // 3
-    println(list.isEmpty()) // false
-    println(list.contains(1)) // true
-    println(list.indexOf(1)) // 0
-    println(list.lastIndexOf(1)) // 0
-    println(list.subList(0, 2)) // [1, 2]
-    println(list + 4) // [1, 2, 3, 4]
-    println(list + listOf(4, 5)) // [1, 2, 3, 4, 5]
-    println(list - 1) // [2, 3]
-    println(list - listOf(1, 2)) // [3]
-    println(list.reversed()) // [3, 2, 1]
-    println(list.sorted()) // [1, 2, 3]
-    println(list.sortedDescending()) // [3, 2, 1]
-    println(list.shuffled()) // [2, 3, 1]
-    println(list.sum()) // 6
-    println(list.average()) // 2.0
-    println(list.min()) // 1
-    println(list.max()) // 3
-    println(list.first()) // 1
-    println(list.last()) // 3
-    println(list.joinToString()) // 1, 2, 3
-    println(list.joinToString(prefix = "[", postfix = "]")) // [1, 2, 3]
-    println(list.joinToString(separator = "; ")) // 1; 2; 3
-    println(list.joinToString { "($it)" }) // (1), (2), (3)
-    println(list.joinToString(transform = { "($it)" })) // (1), (2), (3)
-```
-
-### Set
-
-```kotlin
-fun main() {
-    val set = setOf(1, 2, 3)
-    println(set) // [1, 2, 3]
-    println(set.size) // 3
-    println(set.isEmpty()) // false
-    println(set.contains(1)) // true
-    println(set + 4) // [1, 2, 3, 4]
-    println(set + listOf(4, 5)) // [1, 2, 3, 4, 5]
-    println(set - 1) // [2, 3]
-    println(set - listOf(1, 2)) // [3]
-    println(set.reversed()) // [3, 2, 1]
-    println(set.sorted()) // [1, 2, 3]
-    println(set.sortedDescending()) // [3, 2, 1]
-    println(set.shuffled()) // [2, 3, 1]
-    println(set.sum()) // 6
-    println(set.average()) // 2.0
-    println(set.min()) // 1
-    println(set.max()) // 3
-    println(set.first()) // 1
-    println(set.last()) // 3
-    println(set.joinToString()) // 1, 2, 3
-    println(set.joinToString(prefix = "[", postfix = "]")) // [1, 2, 3]
-    println(set.joinToString(separator = "; ")) // 1; 2; 3
-    println(set.joinToString { "($it)" }) // (1), (2), (3)
-    println(set.joinToString(transform = { "($it)" })) // (1), (2), (3)
-}
-```
-
-### Map
-
-```kotlin
-fun main() {
-    val map = mapOf(1 to "one", 2 to "two", 3 to "three")
-    println(map) // {1=one, 2=two, 3=three}
-    println(map.size) // 3
-    println(map.isEmpty()) // false
-    println(map.containsKey(1)) // true
-    println(map.containsValue("one")) // true
-    println(map + Pair(4, "four")) // {1=one, 2=two, 3=three, 4=four}
-    println(map + mapOf(4 to "four", 5 to "five")) // {1=one, 2=two, 3=three, 4=four, 5=five}
-    println(map - 1) // {2=two, 3=three}
-    println(map - listOf(1, 2)) // {3=three}
-    println(map.reversed()) // {three=3, two=2, one=1}
-    println(map.keys) // [1, 2, 3]
-    println(map.values) // [one, two, three]
-    println(map.entries) // [1=one, 2=two, 3=three]
-    println(map.keys.joinToString()) // 1, 2, 3
-    println(map.keys.joinToString(prefix = "[", postfix = "]")) // [1, 2, 3]
-    println(map.keys.joinToString(separator = "; ")) // 1; 2; 3
-    println(map.keys.joinToString { "($it)" }) // (1), (2), (3)
-    println(map.keys.joinToString(transform = { "($it)" })) // (1), (2), (3)
-    println(map.values.joinToString()) // one, two, three
-    println(map.values.joinToString(prefix = "[", postfix = "]")) // [one, two, three]
-    println(map.values.joinToString(separator = "; ")) // one; two; three
-    println(map.values.joinToString { "($it)" }) // (one), (two), (three)
-    println(map.values.joinToString(transform = { "($it)" })) // (one), (two), (three)
-    println(map.entries.joinToString()) // 1=one, 2=two, 3=three
-```
-
 ## Ranges
 
 Ranges are used to represent a sequence of values. The `..` operator is used to create a range.
@@ -525,3 +428,15 @@ fun main() {
     }
 }
 ```
+
+## Advanced Operators
+
+Kotlin supports the following operators:
+- `any` - returns true if at least one element matches the predicate
+- `all` - returns true if all elements match the predicate
+- `none` - returns true if no elements match the predicate
+- `count` - returns the number of elements matching the predicate
+- `find` - returns the first element matching the predicate
+- `first` - returns the first element
+- `last` - returns the last element
+- `reduce` - combines all elements into a single value
