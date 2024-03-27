@@ -1,6 +1,6 @@
-# **Programming Languages Learning Journey**
+# **Practice Journey**
 
-This repository documents my personal progress in learning different programming languages. I created this project to track my progress and share it with others who may be interested in learning the same languages. Each folder in the repository contains my code and notes on a different language, along with any resources I used to learn it.
+This repository documents my personal progress in practice different programming languages. I created this project to track my progress and share it with others who may be interested in learning the same languages. Each folder in the repository contains my code and notes on a different language, along with any resources I used to learn it.
 
 ## Contents
 
